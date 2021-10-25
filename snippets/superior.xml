@@ -43,8 +43,10 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
 
   <!-- external repos -->
+  <project path="external/colorkt" name="android_external_colorkt" remote="superior" />
   <project path="external/json-c" name="android_external_json-c" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
+  <project path="external/themelib" name="android_external_themelib" remote="superior" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
 
