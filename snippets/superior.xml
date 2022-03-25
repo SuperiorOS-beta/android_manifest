@@ -9,6 +9,10 @@
           review="gerrit.superioros.org"
           revision="refs/heads/12.1" />
 
+  <remote name="superior-gitlab"
+          fetch="https://gitlab.com/superioros"
+          revision="refs/heads/twelve" />
+
   <remote name="SuperiorOS-Devices"
            fetch="https://github.com/SuperiorOS-Devices"
            revision="refs/heads/12.1" />
@@ -87,6 +91,7 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="superior" />
 
   <!-- vendor repos -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
   <project path="vendor/superior" name="android_vendor_superior" remote="superior" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="superior" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="superior" />
