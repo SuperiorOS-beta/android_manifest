@@ -87,10 +87,12 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 
