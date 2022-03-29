@@ -48,6 +48,7 @@
 
   <!-- framework repos -->
   <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="superior" >
