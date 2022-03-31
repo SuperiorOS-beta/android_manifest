@@ -42,6 +42,7 @@
   <!-- device repos -->
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="superior" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="superior-org" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="superior" />
 
   <!-- external repos -->
