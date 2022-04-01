@@ -96,6 +96,9 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
+  <project path="packages/resources/ThemedIcons" name="android_packages_resources_ThemedIcons" remote="superior-org">
+    <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
+  </project>
 
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-superior" name="android_prebuilts_tools-extras" remote="superior" />
